@@ -18,9 +18,11 @@ This plug in simulates a coin flip with animation and stores the randomization r
 
 | Feature / Property | Support |
 | --- | --- |
-| Supported field type(s) | `text` `select_one` `select_multiple`|
+| Supported field type(s) | `text` |
 | Default values | No |
-| Custom constraint message | Yes |
+| media:image | Yes|
+| media:audio | Yes |
+| media:video | Yes |
 | Custom required message | Yes |
 | Read only | No |
 
