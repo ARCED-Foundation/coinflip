@@ -27,7 +27,7 @@ This plug in simulates a coin flip with animation and stores the randomization r
 
 ## How to use
 
-1. Download the test form [extras/sample-form](https://github.com/ARCED-Foundation/coinflip/raw/master/extras/example_form/example_form/Coin%flip.xlsx) from this repo and upload it to your SurveyCTO server.
+1. Download the test form [extras/sample-form](https://github.com/ARCED-Foundation/coinflip/raw/master/extras/example_form/example_form/Coin_flip.xlsx) from this repo and upload it to your SurveyCTO server.
 1. Download the [coinflip.fieldplugin.zip](https://github.com/ARCED-Foundation/coinflip/raw/master/coinflip.fieldplugin.zip) file from this repo, and attach it to the test form on your SurveyCTO server.
 1. Make sure to provide the correct parameters (see below).
 
@@ -51,7 +51,7 @@ Email: [mehrab.ali@arced.foundation](mailto::mehrab.ali@arced.foundation)
 ## More resources
 
 * **Sample form**  
-You can find a form definition in this repo here: [extras/sample_form](https://github.com/ARCED-Foundation/coinflip/raw/master/extras/example_form/example_form/Coin%flip.xlsx).
+You can find a form definition in this repo here: [extras/sample_form](https://github.com/ARCED-Foundation/coinflip/raw/master/extras/example_form/example_form/Coin_flip.xlsx).
 
 * **Developer documentation**  
 More instructions for developing and using field plug-ins can be found here: [https://github.com/surveycto/Field-plug-in-resources](https://github.com/surveycto/Field-plug-in-resources)
