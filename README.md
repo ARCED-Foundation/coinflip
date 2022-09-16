@@ -1,7 +1,12 @@
-# Table list
+# Coin flip
 
-
-| ![coinflip field plug-in](extras/Head.jpg) |  ![coinflip field plug-in](extras/Tail.jpg) | ![coinflip field plug-in](extras/Result.jpg) |
+<table>
+  <tr>
+    <td> <img src="extras/Head.jpg"  </td>
+    <td> <img src="extras/Tail.jpg"   </td>
+    <td> <img src="extras/Result.jpg"   </td>
+  </tr>
+</table>
 
 ## Description
 
