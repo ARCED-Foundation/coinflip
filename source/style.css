@@ -1,0 +1,90 @@
+#tableId tbody tr {
+    cursor: pointer;
+}
+
+/*
+    ------------------------
+    Labels and hints
+    ------------------------
+*/
+
+.label {
+    /* add style rules here to change how the label appears */
+    margin: .75rem 0;
+}
+
+.hint {
+    /* add style rules here to change how the hint appears */
+    color: rgba(0, 0, 0, .65);
+    font-style: italic;
+    margin: .5rem 0;
+}
+
+/* 
+    ------------------------
+    Choices
+    ------------------------
+*/
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#coin {
+    position: relative;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform 1s ease-in;
+    transform-style: preserve-3d;
+}
+
+.side {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.head {
+    background-color: green;
+    z-index: 10;
+}
+
+.tail {
+    background-color: red;
+    transform: rotateX(-180deg);
+}
+
+.flipHead {
+    animation: resultHead 5s ease-out forwards;
+}
+
+.flipTail {
+    animation: resultTail 5s ease-out forwards;
+}
+
+@keyframes resultHead {
+    from {
+        transform: rotateX(0);
+    }
+
+    to {
+        transform: rotateX(1800deg);
+    }
+}
+
+@keyframes resultTail {
+    from {
+        transform: rotateX(0);
+    }
+
+    to {
+        transform: rotateX(1980deg);
+    }
+}
