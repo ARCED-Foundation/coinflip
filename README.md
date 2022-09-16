@@ -11,7 +11,6 @@
 ## Description
 
 This plug in simulates a coin flip with animation and stores the randomization result. 
-[pre-loaded choices](https://docs.surveycto.com/02-designing-forms/04-sample-forms/12.search-and-select.html). The table further allows for sorting for each column and also searching for across the table. [ARCED](https://arced.foundation) team added a new parameter that allows pagination in the table. 
 
 [![Download now](extras/download-button.png)](https://github.com/ARCED-Foundation/coinflip/raw/master/coinflip.fieldplugin.zip)
 
@@ -45,8 +44,8 @@ This plug in simulates a coin flip with animation and stores the randomization r
 
 
 ## Author
-[Mehrab Ali](https://github.com/mehrabali)
-[ARCED Foundation](https://www.arced.foundation)
+[Mehrab Ali](https://github.com/mehrabali) <br>
+[ARCED Foundation](https://www.arced.foundation)<br>
 Email: [mehrab.ali@arced.foundation](mailto::mehrab.ali@arced.foundation)
 
 ## More resources
