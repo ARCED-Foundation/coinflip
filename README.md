@@ -51,7 +51,7 @@ Email: [mehrab.ali@arced.foundation](mailto::mehrab.ali@arced.foundation)
 ## More resources
 
 * **Sample form**  
-You can find a form definition in this repo here: [extras/sample_form](https://github.com/surveycto/table-list/raw/master/extras/example_form/table-list%20sample%20folder.zip).
+You can find a form definition in this repo here: [extras/sample_form](https://github.com/ARCED-Foundation/coinflip/raw/master/extras/example_form/Coin%flip.xlsx).
 
 * **Developer documentation**  
 More instructions for developing and using field plug-ins can be found here: [https://github.com/surveycto/Field-plug-in-resources](https://github.com/surveycto/Field-plug-in-resources)
