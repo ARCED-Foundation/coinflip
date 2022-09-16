@@ -34,7 +34,7 @@ function fnClick() {
         coin.className = "flipHead";
         sleep(5000).then(() => {
             /* Store data */
-            setMetaData(metadata + "|" + head)
+            setMetaData(metadata + "|" + flipResult  + "|" + head)
             setAnswer(head)
             document.getElementById("result").innerHTML = head;
             ++block
@@ -44,7 +44,7 @@ function fnClick() {
         coin.className = "flipTail";
         sleep(5000).then(() => {
             /* Store data */
-            setMetaData(metadata + "|" + tail)
+            setMetaData(metadata + "|" + flipResult  + "|" + tail)
             setAnswer(tail)
             document.getElementById("result").innerHTML = tail;
             ++block
