@@ -52,13 +52,25 @@ h2 {
 }
 
 .head {
-    background-color: green;
+    width: 100px;
+    height: 100px;
     z-index: 10;
 }
 
+.head img {
+    width: 100px;
+    height: 100px;
+}
+
+.tail img {
+    width: 100px;
+    height: 100px;
+}
+
 .tail {
-    background-color: red;
-    transform: rotateX(-180deg);
+    width: 100px;
+    height: 100px;
+    transform: rotateX(180deg);
 }
 
 .flipHead {
@@ -69,13 +81,21 @@ h2 {
     animation: resultTail 5s ease-out forwards;
 }
 
+.head,
+.tail {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
 @keyframes resultHead {
     from {
         transform: rotateX(0);
     }
 
     to {
-        transform: rotateX(1800deg);
+        transform: rotateX(2520deg);
     }
 }
 
@@ -85,6 +105,6 @@ h2 {
     }
 
     to {
-        transform: rotateX(1980deg);
+        transform: rotateX(2340deg);
     }
 }
