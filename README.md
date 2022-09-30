@@ -1,5 +1,9 @@
 # Coin flip
 
+<video height="80%" controls>
+  <source src="https://github.com/ARCED-Foundation/coinflip/raw/master/extras/demo.mp4" type="video/mp4">
+</video>
+
 
 
 
