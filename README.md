@@ -41,10 +41,11 @@ This plug in simulates a coin flip with animation and stores the randomization r
 | --- | --- |
 | `head` | Text to show and store when its head |
 | `tail` | Text to show and store when its tail |
+| `head_p` | Proability of head (default is .5) |
 
 
 > **Example:**  
-`custom-flipcoin(head="Air Filter", tail="No Air Filter")`
+`custom-flipcoin(head="Air Filter", tail="No Air Filter", head_p=.5)`
 
 
 ## Author

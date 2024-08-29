@@ -1,7 +1,14 @@
 /* global setAnswer, fieldProperties, getPluginParameter, $ */
 var head = getPluginParameter('head') // Title for head result
 var tail = getPluginParameter('tail') // Title for tail result
+var head_p = getPluginParameter('head_p') // Probablity of head
 var currentAnswer = fieldProperties.CURRENT_ANSWER 
+
+/* Probability calculation */
+if (head_p = '') {
+    var head_p = .5
+}
+var tail_p = 1 - .5
 
 /* Store all filp results */
 var metadata = getMetaData() // To store all the results in metadata
@@ -30,7 +37,7 @@ var block = 0;
 
 function fnClick() {
     var flipResult = Math.random();
-    if (flipResult < 0.5 && block === 0) {
+    if (flipResult < head_p && block === 0) {
         coin.className = "flipHead";
         sleep(5000).then(() => {
             /* Store data */
@@ -40,7 +47,7 @@ function fnClick() {
             ++block
         });
 
-    } else if (flipResult >= 0.5 && block === 0) {
+    } else if (flipResult >= tail_p && block === 0) {
         coin.className = "flipTail";
         sleep(5000).then(() => {
             /* Store data */
