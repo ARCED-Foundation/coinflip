@@ -10,7 +10,7 @@ if (head_p = '') {
     var head_p = .5
 }
 else {
-  var head_p = int(head_p)
+  var head_p = Number(head_p)
 }
 
 var tail_p = 1 - .5
@@ -43,6 +43,9 @@ var block = 0;
 function fnClick() {
     if (flipResult = '') {
       var flipResult = Math.random();
+    }
+    else {
+      var flipResult = Number(flipResult)
     }
     
     if (flipResult < head_p && block === 0) {
