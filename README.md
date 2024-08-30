@@ -41,7 +41,8 @@ This plug in simulates a coin flip with animation and stores the randomization r
 | --- | --- |
 | `head` | Text to show and store when its head |
 | `tail` | Text to show and store when its tail |
-| `head_p` | Proability of head (default is .5) |
+| `random` | (Optional) Random number [Ideally generated in SurveyCTO calculate function ``once(random())``] |
+| `head_p` | (Optional) Proability of head (default is .5) |
 
 
 > **Example:**  

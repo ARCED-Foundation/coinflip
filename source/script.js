@@ -1,6 +1,7 @@
 /* global setAnswer, fieldProperties, getPluginParameter, $ */
 var head = getPluginParameter('head') // Title for head result
 var tail = getPluginParameter('tail') // Title for tail result
+var flipResult = getPluginParameter('random') // Random number
 var head_p = getPluginParameter('head_p') // Probablity of head
 var currentAnswer = fieldProperties.CURRENT_ANSWER 
 
@@ -36,7 +37,10 @@ coin.addEventListener("click", fnClick);
 var block = 0;
 
 function fnClick() {
-    var flipResult = Math.random();
+    if (flipResult = '') {
+      var flipResult = Math.random();
+    }
+    
     if (flipResult < head_p && block === 0) {
         coin.className = "flipHead";
         sleep(5000).then(() => {
