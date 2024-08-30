@@ -6,11 +6,8 @@ var head_p = getPluginParameter('head_p') // Probablity of head
 var currentAnswer = fieldProperties.CURRENT_ANSWER 
 
 /* Probability calculation */
-if (head_p = '') {
+if (head_p === '') {
     var head_p = .5
-}
-else {
-  var head_p = Number(head_p)
 }
 
 var tail_p = 1 - .5
@@ -39,14 +36,11 @@ let coin = document.getElementById("coin");
 coin.addEventListener("click", fnClick);
 
 var block = 0;
+if (flipResult === '') {
+  var flipResult = Math.random();
+}
 
 function fnClick() {
-    if (flipResult = '') {
-      var flipResult = Math.random();
-    }
-    else {
-      var flipResult = Number(flipResult)
-    }
     
     if (flipResult < head_p && block === 0) {
         coin.className = "flipHead";
