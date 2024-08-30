@@ -9,6 +9,10 @@ var currentAnswer = fieldProperties.CURRENT_ANSWER
 if (head_p = '') {
     var head_p = .5
 }
+else {
+  var head_p = int(head_p)
+}
+
 var tail_p = 1 - .5
 
 /* Store all filp results */
