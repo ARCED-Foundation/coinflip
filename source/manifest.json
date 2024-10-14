@@ -1,7 +1,7 @@
 {
 	"name" : "Coin Flip",
 	"author" : "Mehrab Ali, ARCED Foundation",
-	"version": "2.2.0",
+	"version": "2.3.0",
 	"supportedFieldTypes": ["text"]
 
 }

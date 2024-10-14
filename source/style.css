@@ -41,6 +41,7 @@ h2 {
     cursor: pointer;
     transition: transform 1s ease-in;
     transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
 }
 
 .side {
@@ -105,6 +106,29 @@ h2 {
     }
 
     to {
+        transform: rotateX(2340deg);
+    }
+}
+
+
+@-webkit-keyframes resultHead {
+    from {
+        -webkit-transform: rotateX(0);
+        transform: rotateX(0);
+    }
+    to {
+        -webkit-transform: rotateX(2520deg);
+        transform: rotateX(2520deg);
+    }
+}
+
+@-webkit-keyframes resultTail {
+    from {
+        -webkit-transform: rotateX(0);
+        transform: rotateX(0);
+    }
+    to {
+        -webkit-transform: rotateX(2340deg);
         transform: rotateX(2340deg);
     }
 }
