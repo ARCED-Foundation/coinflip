@@ -41,7 +41,6 @@ h2 {
     cursor: pointer;
     transition: transform 1s ease-in;
     transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
 }
 
 .side {
@@ -110,6 +109,10 @@ h2 {
     }
 }
 
+#coin {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
 
 @-webkit-keyframes resultHead {
     from {

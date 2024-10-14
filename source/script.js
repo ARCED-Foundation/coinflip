@@ -5,12 +5,12 @@ var flipResult = getPluginParameter('random') // Random number
 var head_p = getPluginParameter('head_p') // Probablity of head
 var currentAnswer = fieldProperties.CURRENT_ANSWER 
 
-/* Probability calculation */
-if (head_p === '') {
-    var head_p = .5
-}
 
-var tail_p = 1 - .5
+/* Probability calculation */
+if (!head_p) {
+  var head_p = 0.5;
+}
+var tail_p = 1 - head_p;
 
 /* Store all filp results */
 var metadata = getMetaData() // To store all the results in metadata
@@ -41,7 +41,7 @@ if (flipResult === '') {
 }
 
 function fnClick() {
-    
+  console.log(head_p)
     if (flipResult < head_p && block === 0) {
         coin.className = "flipHead";
         sleep(5000).then(() => {
